@@ -3,12 +3,14 @@ $(function () {
   $("#search").click(function () {
     $(".menu-item").addClass("hide-item");
     $(".header__search-form").addClass("active");
+    $(".header__box--left").addClass("active");
     $(".close").addClass("active");
     $("#search").hide();
   });
   $(".close").click(function () {
     $(".menu-item").removeClass("hide-item");
     $(".header__search-form").removeClass("active");
+    $(".header__box--left").removeClass("active");
     $(".close").removeClass("active");
     $("#search").show();
   });
@@ -154,5 +156,36 @@ $(function () {
 
   $(".js-slider-btn").on("mouseleave", function () {
     cursor.removeClass("hoverBtn");
+  });
+
+  // Scroll reveal
+  window.sr = ScrollReveal();
+
+  sr.reveal(".animate-left", {
+    origin: "left",
+    duration: 1000,
+    distance: "25rem",
+    delay: 600,
+  });
+
+  sr.reveal(".animate-right", {
+    origin: "right",
+    duration: 1000,
+    distance: "25rem",
+    delay: 600,
+  });
+
+  sr.reveal(".animate-top", {
+    origin: "top",
+    duration: 1000,
+    distance: "25rem",
+    delay: 600,
+  });
+
+  sr.reveal(".animate-bottom", {
+    origin: "bottom",
+    duration: 1000,
+    distance: "25rem",
+    delay: 600,
   });
 });
