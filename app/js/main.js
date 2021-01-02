@@ -35,4 +35,13 @@ $(function () {
       $('#loadMore').fadeOut('slow')
     }
   });
+
+  // Collections Slider
+    $(".collections__inner").slick({
+      dots: false,
+      arrows: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+    });
 });
