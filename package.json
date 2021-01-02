@@ -8,23 +8,24 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Oorzhakau/mebelgroup.git"
+        "url": "git+https://github.com/EvgeniyBudaev/MebelGroup.git"
     },
     "keywords": [
         "js",
         "html",
+        "scss",
         "css"
     ],
-    "author": "Oorzhak Alexander",
+    "author": "Evgeniy Budaev",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Oorzhakau/mebelgroup/issugs"
+        "url": "https://github.com/EvgeniyBudaev/MebelGroup/issues"
     },
-    "homepage": "https://github.com/Oorzhakau/mebelgroup#readme",
+    "homepage": "https://github.com/EvgeniyBudaev/MebelGroup#readme",
     "devDependencies": {
-        "browser-sync": "^2.26.13",
+        "browser-sync": "^2.26.7",
         "cssmin": "^0.4.3",
-        "del": "^6.0.0",
+        "del": "^5.1.0",
         "gulp": "^4.0.2",
         "gulp-autoprefixer": "^7.0.1",
         "gulp-concat": "^2.6.1",
@@ -34,11 +35,8 @@
         "gulp-uglify": "^3.0.2",
         "jquery-form-styler": "^2.0.2",
         "magnific-popup": "^1.1.0",
-        "node-sass": "^5.0.0",
+        "node-sass": "^4.14.1",
         "normalize.css": "^8.0.1",
         "slick-carousel": "^1.8.1"
-    },
-    "dependencies": {
-        "rateyo": "^3.0.0-alpha.2"
     }
 }
