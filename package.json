@@ -23,6 +23,7 @@
     "homepage": "https://github.com/Oorzhakau/mebelgroup#readme",
     "devDependencies": {
         "browser-sync": "^2.26.13",
+        "cssmin": "^0.4.3",
         "del": "^6.0.0",
         "gulp": "^4.0.2",
         "gulp-autoprefixer": "^7.0.1",
