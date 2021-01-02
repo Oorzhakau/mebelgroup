@@ -430,9 +430,15 @@
 
   &__items {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-left: -30px;
     flex-wrap: wrap;
     margin-bottom: 40px;
+  }
+
+  &__item {
+    flex-basis: calc(33.3333% - 30px);
+    margin-left: 30px;
   }
 
   &__inner {
